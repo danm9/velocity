@@ -1,6 +1,6 @@
-import csv
+ximport csv
 
-with open('C:\\Users\\dminahan\\python\\velocity\\Consumer_velocity.csv') as csvfile:
+with open('C:\\Users\\user\\example.csv') as csvfile:
     readCSV = csv.reader(csvfile, delimiter=',')
     work_item_type = []
     tags = []
@@ -22,6 +22,7 @@ with open('C:\\Users\\dminahan\\python\\velocity\\Consumer_velocity.csv') as csv
     bugcrowd_items = int(work_item_type.count('BugCrowd Items'))
     total = bugs + pbis + bugcrowd_items
     injections = int(tags.count('Injection'))
+    
     #velocity = int(effort.count)
 
     print(
