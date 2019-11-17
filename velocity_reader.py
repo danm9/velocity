@@ -1,6 +1,6 @@
 import csv
 
-with open('C:\\Users\\dminahan\\python\\velocity\\Consumer_velocity.csv') as csvfile:
+with open('C:\\Users\\NAME\\XXX.csv') as csvfile:
     readCSV = csv.reader(csvfile, delimiter=',')
     work_item_type = []
     tags = []
