@@ -3,7 +3,7 @@
 import csv
 import re
 
-with open('C:\\Users\\dminahan\\python\\velocity\\Consumer_velocity.csv') as csvfile:
+with open('C:\\Users\\dminahan\\python\\velocity\\CHANGE.csv') as csvfile:
     readCSV = csv.reader(csvfile, delimiter=',')
     ids = []
     states = []
