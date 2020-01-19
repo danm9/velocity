@@ -53,11 +53,6 @@ with open('C:\\Users\\dminahan\\python\\velocity\\CHANGE.csv') as csvfile:
             if token.strip() == 'Injection':
                 injections+=1
 
-    #counting Frontend Items
-
-   
-   
-   
     #Prints
     print(
     'Bugs: ' + str(bugs) + "\n"
